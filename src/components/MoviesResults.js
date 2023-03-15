@@ -9,8 +9,7 @@ class MoviesResults extends Component {
   render() {
     return (
       <React.Fragment>
-          <div className="fav-row">
-            <Link to="/fav">Favoritos</Link>  
+          <div className="fav-row"> 
             <p></p>
             <Link to="/recentSearch">Procura Recente</Link>
             </div>
