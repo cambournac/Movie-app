@@ -33,20 +33,7 @@ class MovieItem extends Component{
     }
   }
 
-  addtoFavourite(){
-    this.setState({
-      fav: !this.state.fav
-    });
-    this.props.addToFav(this.props.movieData)
-  }
-
-  removeFromFav(){
-    this.setState({
-      fav: !this.state.fav
-    });
-    this.props.removeFromFav(this.props.movieData)
-  }
-
+ 
   render(){
     const movie = this.props.movieData;
     return(
@@ -68,4 +55,4 @@ class MovieItem extends Component{
   }
 }
 
-export default connect(null, { addToFav, removeFromFav })(MovieItem);
+export default connect(null)(MovieItem);
