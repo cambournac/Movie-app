@@ -60,8 +60,6 @@ class MovieItem extends Component{
             </div>
             <p>Data de lançamento: {movie.release_date}</p>
             <p>Ratings : <span className="badge badge-default">  <span className="glyphicon glyphicon-star" aria-hidden="true"></span>{movie.vote_average}</span></p>
-
-            {this.props.showButton ? this.displayFav() : null}
             <a className="successBtn"  href={MovieURL+movie.id}>Detalhes</a>
           </div>
         </div>

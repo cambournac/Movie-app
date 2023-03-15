@@ -5,16 +5,20 @@ import MoviesDetails from './MovieDetails';
 import NoMatch from './notFoundPage';
 import FavMovies from './FavMovies';
 import RecentSearch from './RecentSearch';
+import DarkMode from './DarkMode';
 
 class App extends Component {
   render() {
     return (
+      
         <Router>
+         
           <div>
             <div className="container">
               <div className="row ">
                 <div className="jumbotron text-center">
-                    <h1 className="display-3">Pesquisar Filmes</h1>
+                  
+                    <h1 className="display-3">Filmes</h1>
                 </div>
               </div>
               <div className="row">
